@@ -1,0 +1,35 @@
+//mediaquery
+$pc: 1088px; // PC
+$tab: 959px; // タブレット
+$sp: 600px;  // スマホ
+
+@mixin lpc {
+  @media screen and (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin mpc {
+  @media screen and (max-width: ($pc - 1)) {
+    @content;
+  }
+}
+@mixin tab-pc {
+  @media screen and (min-width: ($tab)) and (max-width: ($pc - 1)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media screen and (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp-tab {
+  @media screen and (min-width: ($sp)) and (max-width: ($tab - 1)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media screen and (max-width: ($sp - 1)) {
+    @content;
+  }
+}
