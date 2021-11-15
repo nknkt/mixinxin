@@ -150,54 +150,70 @@ input, select {
   background-color: blue;
 }
 
+.fontsize {
+  font-size: 3.2rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fontsize {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fontsize {
+    font-size: 1.6rem;
+  }
+}
+
 .random__box1 {
-  top: 311px;
-  left: 323px;
+  top: 33px;
+  left: 999px;
 }
 
 .random__box2 {
-  top: 79px;
-  left: 898px;
+  top: 327px;
+  left: 573px;
 }
 
 .random__box3 {
-  top: 263px;
-  left: 134px;
+  top: 288px;
+  left: 258px;
 }
 
 .random__box4 {
-  top: 189px;
-  left: 146px;
+  top: 392px;
+  left: 547px;
 }
 
 .random__box5 {
-  top: 240px;
-  left: 875px;
+  top: 152px;
+  left: 960px;
 }
 
 .random__box6 {
-  top: 341px;
-  left: 365px;
+  top: 479px;
+  left: 234px;
 }
 
 .random__box7 {
-  top: 168px;
-  left: 317px;
+  top: 500px;
+  left: 315px;
 }
 
 .random__box8 {
-  top: 487px;
-  left: 292px;
+  top: 221px;
+  left: 208px;
 }
 
 .random__box9 {
-  top: 400px;
-  left: 622px;
+  top: 129px;
+  left: 135px;
 }
 
 .random__box10 {
-  top: 438px;
-  left: 132px;
+  top: 207px;
+  left: 648px;
 }
 
 .random {
