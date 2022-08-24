@@ -1,0 +1,29 @@
+@for $i from 1 through 6 {
+  .col-#{$i} {
+    width: percentage($i/6);
+  }
+}
+
+.column {
+  max-width: 1000px;
+  margin: 0 auto;
+  .col {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 30px;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      height: 50px;
+      &:nth-child(2n-1) {
+        background-color: red;
+      }
+      &:nth-child(2n) {
+        background-color: blue;
+      }
+    }
+  }
+}
